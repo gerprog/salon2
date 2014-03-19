@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salon.Domain", "Salon.Domain\Salon.Domain.csproj", "{7E964D20-F573-4D60-B6DE-AF96463033E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salon.WebUI", "Salon.WebUI\Salon.WebUI.csproj", "{DE9B3046-F740-4580-B250-324948A37FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E964D20-F573-4D60-B6DE-AF96463033E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E964D20-F573-4D60-B6DE-AF96463033E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E964D20-F573-4D60-B6DE-AF96463033E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E964D20-F573-4D60-B6DE-AF96463033E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9B3046-F740-4580-B250-324948A37FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9B3046-F740-4580-B250-324948A37FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9B3046-F740-4580-B250-324948A37FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9B3046-F740-4580-B250-324948A37FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
