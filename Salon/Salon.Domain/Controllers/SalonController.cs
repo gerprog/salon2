@@ -19,12 +19,10 @@ namespace Salon.Domain.Controllers
         //
         // GET: /Salon/Browse?treatmentType=Hair
 
-        public string Browse(string treatmentType)
+        public ActionResult Browse(string TreatmentType)
         {
-            string message = HttpUtility.HtmlEncode("Store.Browse, TreatmentType = "
-+ treatmentType);
-
-            return message;
+            var TreatmentTypeModel = new TreatmentType { Name = TreatmentType };
+            return View(TreatmentTypeModel);
         }
         //
         // GET: /Salon/Details/5
